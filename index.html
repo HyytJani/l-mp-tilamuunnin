@@ -11,7 +11,7 @@
     <H1>Lämpötilamuunnin</H1>
     <form action="/action_page.php">
     <select id="yksikot" name="yksikko">
-      <option value="0">"Celsius->Fahrenheit"</option>
+      <option value="0">Celsius->Fahrenheit </option>
       <option value="1">Fahrenheit->Celsius</option>
       
  
@@ -19,16 +19,16 @@
         
     <form name="syote"> 
         <label for="fname">Syötä lämpötila:</label><br>      
-        <input type="text" value="">
+        <input id="ruutu" type="text" value="">
         <input type="submit" value="muunna">
 
       </form></div>
-      <form>
-        <input type="radio" id="dec1" name="fav_language" value="1">
+      <form id="dec" name="desi">
+        <input type="radio" id="dec1" name="desi" value="1">
         <label for="html">1 desimaali</label><br>
-        <input type="radio" id="dec2" name="fav_language" value="2">
+        <input type="radio" id="dec2" name="desi" value="2">
         <label for="css">2 desimaali</label><br>
-        <input type="radio" id="dec3" name="fav_language" value="3">
+        <input type="radio" id="dec3" name="desi" value="3">
         <label for="javascript">3 desimaali</label>
       </form>
     <script src="main.js"> </script>
