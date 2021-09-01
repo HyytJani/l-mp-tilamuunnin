@@ -2,7 +2,7 @@
 
 
 let lomake=document.forms['syote'];
-lomake.addEventListener('submit',tulostaArvo,);
+lomake.addEventListener('submit',tulostaArvo);
 
 function tulostaArvo(event){
 
